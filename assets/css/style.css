@@ -1,0 +1,263 @@
+/*  Links */
+a {
+	transition: background-color 1s ease; }
+a:link { 
+	color: #666666; }
+a:visited {
+	color: #4A0000; }
+a.navlinks:hover { 
+	color: #ffffff;
+	background-color: #4A0000; }
+a:active { 
+	color: #666666; }
+a:link {
+    text-decoration: none; }
+a:visited {
+    text-decoration: none; }
+a:hover {
+    text-decoration: none; }
+a:active {
+    text-decoration: none; }
+
+/* Header & Navigaton */
+.header-cont {
+	width: 100%; 
+	z-index: 3;
+	position: fixed;
+	top: 0px; 
+}
+
+
+header {
+	background-color: #ffffff;
+	border-bottom: 2px solid #666666;
+}
+
+h1 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 40px; 
+	color: #ffffff;
+	background-color: #4A0000;
+	width: 18%;
+	padding: 30px;
+	text-align: center;
+	position: relative;
+	left: 240px;
+	margin: 0;
+
+}
+
+.Nav {
+	font-family: "Arial", "Helvetica Neue", Nelvetica, sans-serif;
+	font-size: 16px; 
+	float: right;
+	position: relative;
+	right: 240px;
+	top: -60px;
+
+}
+
+body {
+	margin: 0;
+	background-image:url(https://raw.githubusercontent.com/hkhuu1011/Basic-Portfolio/master/assets/images/green_gobbler.png);
+}
+
+/* Center Conent */
+.center-cont {
+	display: table;
+	clear: both;
+	margin: auto;
+	margin-top: 90px;
+	margin-bottom: 150px;
+	width: 960px;
+	position: relative;
+	top: 80px;
+}
+
+.Connect {
+	background-color: #ffffff;
+	width: 270px;
+	height: 180px;
+	text-align: center;
+	border: 1px solid #dddddd;
+	float: right;
+	position: absolute;
+	right: 0px;
+	align-content: center;
+}
+
+.Icons {
+	position: relative;
+	padding: 20px;
+}
+
+h3 {
+	margin: 0px 35px 0px 35px; 
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 22px;
+	color: #4A0000;
+	padding: 25px 10px 25px 10px;
+	border-bottom: 2px solid #dddddd;
+
+}
+
+/* About Me */
+.About {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	width: 650px;
+	float: left;
+	position: relative;
+}
+
+h2 {
+	margin: 0px 35px 0 35px;
+	line-height: 3em;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 30px;
+	color: #4A0000;
+	border-bottom: 3px solid #dddddd;
+}
+
+
+.img {
+	float: left;
+	margin: 35px 35px 15px 35px;		
+}
+
+.info {
+	margin: 26px 35px 35px 35px;
+	font-family: "Arial", "Helvetica Neue", Nelvetica, sans-serif;
+	font-size: 16px;
+	color: #777777;
+	line-height: 2em;
+}
+
+/* Portfolio */
+.box1 {
+	float: left;
+	margin: 35px 10px 10px 35px;
+}
+
+.Hangman {
+	margin: 0px 0px 0px 35px;
+	z-index: 2;
+	position: absolute;
+	top: 265px;
+	float: left;
+	width: 275px;
+	height: 60px;
+	color: #ffffff;
+	background-color: #4A0000;
+	font-size: 30px;
+	line-height: 2em;
+	text-align: center;
+}
+
+.box2 {
+	float: right;
+	margin: 35px 35px 10px 10px;
+}
+
+.RPGGame {
+	margin: 0px 35px 0px 0px;
+	z-index: 2;
+	position: absolute;
+	top: 265px;
+	left: 340px;
+	float: right;
+	width: 275px;
+	height: 60px;
+	color: #ffffff;
+	background-color: #4A0000;
+	font-size: 30px;
+	line-height: 2em;
+	text-align: center;
+}
+
+
+.box3 {
+	float: left;
+	margin: 10px 10px 10px 35px;
+}
+
+.Trivia {
+	margin: 0px 0px 0px 35px;
+	z-index: 2;
+	position: absolute;
+	top: 500px;
+	float: left;
+	width: 275px;
+	height: 60px;
+	color: #ffffff;
+	background-color: #4A0000;
+	font-size: 30px;
+	line-height: 2em;
+	text-align: center;
+}
+
+.box4 {
+	float: right;
+	margin: 10px 35px 10px 10px;	
+}
+
+.Rutgers {
+	margin: 0px 35px 0px 0px;
+	z-index: 2;
+	position: absolute;
+	top: 500px;
+	left: 340px;
+	float: right;
+	width: 275px;
+	height: 60px;
+	color: #ffffff;
+	background-color: #4A0000;
+	font-size: 30px;
+	line-height: 2em;
+	text-align: center;
+}
+
+.box5 {
+	float: left;
+	margin: 10px 10px 35px 35px;
+}
+
+.Rock {
+	margin: 0px 0px 0px 35px;
+	z-index: 2;
+	position: absolute;
+	top: 735px;
+	float: left;
+	width: 275px;
+	height: 60px;
+	color: #ffffff;
+	background-color: #4A0000;
+	font-size: 30px;
+	line-height: 2em;
+	text-align: center;
+}
+
+/* Contact Form */
+#contact_form{
+	margin: 35px;
+	font-family: "Arial", "Helvetica Neue", Nelvetica, sans-serif;
+	color: #777777;
+	line-height: 1.5em;
+}
+
+/* Footer */
+footer {
+	font-family: "Arial", "Helvetica Neue", Nelvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #666666;
+	text-align: center;
+	margin: 0;
+	padding: 35px;
+	z-index: 2;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	border-top: 8px solid #4A0000;
+
+}
